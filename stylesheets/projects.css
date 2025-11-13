@@ -128,6 +128,32 @@ margin: 1rem 0;
   text-decoration: underline;
 }
 
+#header {
+    position: relative;
+    height: 3em;
+    margin: 0.25em 0;
+    left: 0;
+    right: 0;
+}
+
+#head {
+  color: #fff;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#theme-toggler {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+}
+
+#theme-toggler i {
+    font-size: 1.5em;
+    color: #ddd;
+}
+
 /* footer */
 
 #footer {
